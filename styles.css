@@ -11,16 +11,30 @@ Universal Styling
 }
 
 @font-face {
-  font-family: 'Didot Regular';
-  src: url('../Font/Didot_Regular.ttf')
+  font-family: 'Didot_Regular';
+  src: url('../Fonts/Didot_Regular.ttf')
   format('truetype');
 }
 
-/*=========================
-p {
-  color:#534836;
+@font-face {
+  font-family: 'Didot_Medium';
+  src: url('../Fonts/Didot_Medium.ttf')
+  format('truetype');
 }
-*=======================*/
+
+p {
+  color: #534836;
+  font-family: 'Karla', sans-serif;
+}
+
+h1,
+h2,
+h3,
+li{
+  color: #534836;
+
+}
+
 main {
   background: #f7e5db;
   width: 100%;
@@ -58,7 +72,7 @@ header nav a {
   color: #534836;
   padding: 10px;
   margin: 10px 0;
-  font-family: "Didot Regular";
+  font-family: 'Didot_Regular';
   font-size: 27px;
   transition: .3s;
 }
@@ -66,6 +80,50 @@ header nav a {
 header nav a:hover {
   color: #f7e5db;
   transition: .3s;
+}
+
+header .homepage{
+  opacity: 0.5;
+}
+
+/*============================
+
+Homepage Styling
+
+*=========================*/
+.home_bottom{
+  width: 900px;
+  margin: auto;
+  display: inline;
+}
+
+.home_bottom img{
+  float: left;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+}
+.home_text{
+  width: 1000px;
+  line-height: 25px;
+}
+
+.home_text h1{
+  font-family: "Didot_Regular";
+  font-size: 30px;
+  padding: 35px 0 5px;
+}
+.home_text h2{
+  font-family: "Didot_Medium";
+  font-size: 20px;
+  padding: 10px 0 5px;
+}
+
+.home_text ul{
+  list-style-type: circle;
+  list-style-position: inside;
+  line-height: 20px;
+  padding: 0;
 }
 
 /*============================
