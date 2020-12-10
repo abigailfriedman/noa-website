@@ -91,15 +91,25 @@ header .homepage{
 Homepage Styling
 
 *=========================*/
+.home_top {
+  height: 800px;
+  width: auto;
+}
+
+.home_top img{
+  width: 100%;
+  max-height: 1000px;
+}
+
 .home_bottom{
-  width: 900px;
+  padding-bottom: 200px;
+  width: 1000px;
   margin: auto;
-  display: inline;
 }
 
 .home_bottom img{
   float: left;
-  padding: 30px;
+  padding: 0 30px;
   width: 400px;
   height: auto;
 }
@@ -141,7 +151,7 @@ Headshot page Styling
   display: inline;
   padding: 20px 10px 0;
   margin: auto;
-  opacity: 0.7;
+  opacity: 0.75;
   transition: .3s;
 }
 
