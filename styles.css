@@ -20,13 +20,12 @@ Universal Styling
 p {
   color:#534836;
 }
-
+*=======================*/
 main {
   background: #f7e5db;
   width: 100%;
   position: relative;
 }
-*=======================*/
 
 /*============================
 
@@ -39,7 +38,7 @@ header {
 
 header img {
   display: block;
-  max-width: 350px;
+  max-width: 400px;
   margin: auto;
   padding-bottom: 10px;
 }
@@ -69,11 +68,32 @@ header nav a:hover {
   transition: .3s;
 }
 
-  /*============================
+/*============================
+
+Headshot page Styling
+
+*=========================*/
+.headshot_row {
+  width: 850px;
+  margin: auto;
+}
+.headshot_row img {
+  height: auto;
+  width: 250px;
+  display: inline;
+  padding: 20px 10px 0;
+  margin: auto;
+}
+
+.last{
+  padding-bottom: 20px;
+}
+/*============================
 
   Footer Styling
 
-  *=========================*/
+*=========================*/
+
 footer {
   background: #c79783;
   color: #534836;
