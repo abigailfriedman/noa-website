@@ -87,6 +87,7 @@ header nav a:hover {
 slideshow Styling
 
 *=========================*/
+
 .slideshow-container {
   position: relative;
   margin: auto;
@@ -96,13 +97,6 @@ slideshow Styling
   display: none;
 }
 
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
@@ -165,7 +159,7 @@ Headshot page Styling
   display: inline;
   padding: 20px 10px 0;
   margin: auto;
-  opacity: 0.75;
+  opacity: 0.8;
   transition: .3s;
 }
 
