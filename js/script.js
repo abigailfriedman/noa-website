@@ -1,5 +1,10 @@
+
 $(document).ready(function(){
   $('.slider').slick({
-    setting-name: setting-value
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplaySpeed: 2000,
+    autoplay: true,
   });
 });
