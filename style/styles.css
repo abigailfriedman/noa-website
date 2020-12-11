@@ -174,6 +174,117 @@ Headshot page Styling
 
 /*============================
 
+Form Styling
+
+*=========================*/
+.contact {
+  margin: auto;
+  padding: 100px 100px 10px;
+  width: 800px;
+  height: 600px;
+}
+
+.contactimage img {
+  float: left;
+  width: 300px;
+  padding: 0 40px 0 0;
+}
+
+.contact_Container {
+  padding: 10px;
+  position: relative;
+  min-width: 700px;
+  height: 500px;
+}
+
+.contact_form {
+  max-width: 1000px;
+}
+
+.contact_container h1 {
+  font-family: "Didot_Regular";
+  color: #534836;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.contact_container p::selection,
+.contact_container h1::selection {
+  color: #c79783;
+}
+
+.contact_container p {
+  color: #534836;
+  font-size: 20px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  overflow: visible;
+}
+
+/*============================
+Psuedo elements
+*=========================*/
+.contact_container p::selection,
+.contact_container h1::selection {
+  color: #c79783;
+}
+
+
+form label {
+  color: #534836;
+  font-size: 20px;
+}
+
+.label_input_wrap {
+  display: block;
+  padding-bottom: 5px;
+}
+
+.name,
+.email,
+.Message {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px 15px;
+}
+
+textarea {
+  font-family: Karla;
+  padding: 10px 15px;
+}
+
+.reset input,
+.submit input {
+  background: #c79783;
+  color: #534836;
+  font-family: "Didot_Regular";
+  font-size: 20px;
+  border-radius: 4px;
+  padding: 5px 30px;
+  margin-right: 15px;
+  margin-top: 10px;
+  transition: .3s;
+}
+
+.submit input:hover {
+  color: #f7e5db;
+  transition: .3s;
+}
+
+.reset input:hover {
+  color: #f7e5db;
+  transition: .3s;
+}
+
+.reset,
+.submit {
+  display: inline;
+}
+
+/*============================
+
   Footer Styling
 
 *=========================*/

@@ -3,8 +3,73 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-  </head>
-  <body>
 
+    <!--styling-->
+    <link rel="stylesheet" href="style/styles.css" type="text/css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3d5ccbc9dd.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Headshots.html">Headshots</a></li>
+          <li><a href="Graduation.html">Graduation</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="Images/contact_header.jpg" alt="Noa Michele Headshots">
+    </header>
+
+    <main>
+      <section class="contact">
+        <div class="contactimage side">
+          <img src='Images/meetme_noa_pink.jpg' alt="Noa Michele with some doodles" title="Meet Me Noa Michele"/>
+        </div>
+
+        <div class="contact_container side">
+          <h1>Let's Chat!</h1>
+          <p>I would love to talk to talk about how we can work together!</p>
+          <form class="contact_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+            <div class="name">
+              <label for="name" class="label_input_wrap">Name</label>
+              <input type="text" name="req_name" id="name" placeholder="Ex: Abigail Friedman" />
+            </div>
+
+            <div class="email">
+              <label for="email" class="label_input_wrap">Email</label>
+              <input type="text" name="req_email" id="email" placeholder="hello@noamichele.com"/>
+            </div>
+
+            <div class="message">
+              <label for="message" class="label_input_wrap">Message</label>
+              <textarea name="Message" id="message" rows="8" cols="40" placeholder="Send me dates that work for you for a photoshoot, along with your thoughts and dreams!"></textarea>
+            </div>
+
+            <div class="submit input-section">
+              <input type="submit" value="Send" />
+            </div>
+
+            <div class="reset input-section">
+              <input type="reset" value="Refresh" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h3>Call Me, Beep Me</h3>
+      <div class="icons">
+        <a href="https://www.instagram.com/noamichelefriedman/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a class="email" href="mailto:noafriedman825@gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
+    </footer>
   </body>
 </html>
