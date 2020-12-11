@@ -24,7 +24,6 @@ Universal Styling
 
 p {
   color: #534836;
-  font-family: 'Karla', sans-serif;
 }
 
 h1,
@@ -60,7 +59,7 @@ header img {
 header nav {
   min-width: 600px;
   text-align: right;
-  padding: 15px 15px 0px;
+  padding: 15px 15px 15px;
 }
 
 nav ul li {
@@ -71,7 +70,7 @@ header nav a {
   text-decoration: none;
   color: #534836;
   padding: 10px;
-  margin: 10px 0;
+  margin: 10px;
   font-family: 'Didot_Regular';
   font-size: 27px;
   transition: .3s;
@@ -82,8 +81,33 @@ header nav a:hover {
   transition: .3s;
 }
 
-header .homepage{
-  opacity: 0.5;
+
+/*============================
+
+slideshow Styling
+
+*=========================*/
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2s;
+  animation-name: fade;
+  animation-duration: 2s;
 }
 
 /*============================
@@ -91,16 +115,6 @@ header .homepage{
 Homepage Styling
 
 *=========================*/
-.home_top {
-  height: 800px;
-  width: auto;
-}
-
-.home_top img{
-  width: 100%;
-  max-height: 1000px;
-}
-
 .home_bottom{
   padding-bottom: 200px;
   width: 1000px;
@@ -163,6 +177,7 @@ Headshot page Styling
 .last{
   padding-bottom: 20px;
 }
+
 /*============================
 
   Footer Styling
@@ -207,4 +222,19 @@ footer a:visited {
 
 footer h3::selection {
   color: #f7e5db;
+}
+
+/*============================
+
+animation
+
+*=========================*/
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
 }
