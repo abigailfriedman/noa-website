@@ -117,6 +117,7 @@ Homepage Styling
   padding-top: 50px;
   width: 1000px;
   margin: auto;
+  overflow: scroll;
 }
 
 .home_bottom img{
