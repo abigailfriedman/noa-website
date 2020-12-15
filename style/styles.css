@@ -204,6 +204,46 @@ Headshot page Styling
 
 /*============================
 
+Grad page Styling
+
+*=========================*/
+
+.grad_row,
+.grad_row_long {
+  width: 600px;
+  margin: auto;
+}
+.grad_row img {
+  height: auto;
+  width: 250px;
+  display: inline;
+  padding: 20px 10px 0;
+  margin: auto;
+  opacity: 0.85;
+  transition: .3s;
+}
+
+.grad_row_long img {
+  height: auto;
+  width: 525px;
+  display: inline;
+  padding: 20px 10px 0;
+  margin: auto;
+  opacity: 0.85;
+  transition: .3s;
+}
+
+.grad_row img:hover,
+.grad_row_long img:hover {
+  opacity: 1.0;
+  transition: .3s;
+}
+
+.last{
+  padding-bottom: 20px;
+}
+/*============================
+
 Form Styling
 
 *=========================*/
