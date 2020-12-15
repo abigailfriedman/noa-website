@@ -251,7 +251,7 @@ Form Styling
   margin: auto;
   padding: 100px 100px 10px;
   width: 800px;
-  height: 600px;
+  height: 650px;
 }
 
 .contactimage img {
@@ -259,6 +259,7 @@ Form Styling
   width: 300px;
   padding: 0 40px 0 0;
 }
+
 
 .contact_Container {
   padding: 10px;
@@ -291,15 +292,6 @@ Form Styling
   overflow: visible;
 }
 
-/*============================
-Psuedo elements
-*=========================*/
-.contact_container p::selection,
-.contact_container h1::selection {
-  color: #c79783;
-}
-
-
 form label {
   color: #534836;
   font-size: 20px;
@@ -321,7 +313,7 @@ input {
 }
 
 textarea {
-  font-family: Karla;
+  font-family: "Karla";
   padding: 10px 15px;
 }
 
