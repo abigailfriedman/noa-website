@@ -84,18 +84,9 @@ header nav a:hover {
 
 /*============================
 
-slideshow Styling
+Opening a page Styling
 
 *=========================*/
-
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-
-.mySlides {
-  display: none;
-}
 
 .fade {
   -webkit-animation-name: fade;
@@ -111,20 +102,19 @@ Homepage Styling
 *=========================*/
 
 .home_logo img{
-  opacity: 1;
   position: absolute;
   min-width: 600px;
   margin: auto;
   display: block;
-  top: 150px;
+  top: 125px;
   left: 0;
   right: 0;
   z-index: 1;
 }
 
 .home_bottom{
-  padding-bottom: 175px;
-  padding-top: 75px;
+  padding-bottom: 125px;
+  padding-top: 50px;
   width: 1000px;
   margin: auto;
 }
@@ -135,19 +125,20 @@ Homepage Styling
   width: 400px;
   height: auto;
 }
+
 .home_text{
   width: 1000px;
   line-height: 25px;
 }
 
 .home_text p{
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .home_text h1{
   font-family: "Didot_Regular";
   font-size: 30px;
-  padding: 35px 0 5px;
+  padding: 20px 0 5px;
   margin: 7px;
 }
 .home_text h2{
@@ -198,7 +189,7 @@ Headshot page Styling
   display: inline;
   padding: 20px 10px 0;
   margin: auto;
-  opacity: 0.8;
+  opacity: 0.85;
   transition: .3s;
 }
 
