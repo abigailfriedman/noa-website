@@ -109,8 +109,22 @@ slideshow Styling
 Homepage Styling
 
 *=========================*/
+
+.home_logo img{
+  opacity: 1;
+  position: absolute;
+  min-width: 600px;
+  margin: auto;
+  display: block;
+  top: 150px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
 .home_bottom{
-  padding-bottom: 200px;
+  padding-bottom: 175px;
+  padding-top: 75px;
   width: 1000px;
   margin: auto;
 }
@@ -126,10 +140,15 @@ Homepage Styling
   line-height: 25px;
 }
 
+.home_text p{
+  margin-bottom: 10px
+}
+
 .home_text h1{
   font-family: "Didot_Regular";
   font-size: 30px;
   padding: 35px 0 5px;
+  margin: 7px;
 }
 .home_text h2{
   font-family: "Didot_Medium";
@@ -142,6 +161,26 @@ Homepage Styling
   list-style-position: inside;
   line-height: 20px;
   padding: 0;
+  margin-bottom: 40px;
+}
+
+.home_text a{
+  text-decoration: none;
+  font-family: "Didot_Medium";
+  border-radius: 8px;
+  width: 40px;
+  font-size: 25px;
+  margin: auto;
+  padding: 10px;
+  background: #c79783;
+  color: #f7e5db;
+  border: 2px solid #534836;
+  transition: .3s;
+}
+
+.home_text a:hover {
+  color: #534836;
+  transition: .3s;
 }
 
 /*============================
