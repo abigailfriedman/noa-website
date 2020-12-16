@@ -55,6 +55,7 @@ header img {
   max-width: 400px;
   margin: auto;
   padding-bottom: 10px;
+  border:
 }
 
 header nav {
@@ -90,12 +91,50 @@ Opening a page Styling
 *=========================*/
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 2s;
   animation-name: fade;
   animation-duration: 2s;
 }
 
+.color {
+  animation-name: color;
+  animation-duration: 2s;
+}
+
+/*============================
+
+Slider Styling
+
+*=========================*/
+
+.slick-slide {
+  position: relative;
+}
+
+.slick-slide::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right:0;
+  bottom:0;
+  left:0;
+  background-image: linear-gradient(to top, black, transparent,transparent);
+}
+
+figcaption {
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+  right:10px;
+  color: white;
+  font-style: italic;
+}
+
+.slick-prev:before {
+  content: '\f060';
+  font-family: "FontAwesome";
+  color: white;
+  font-size: 26px;
+}
 /*============================
 
 Homepage Styling
@@ -122,12 +161,15 @@ Homepage Styling
 
 .home_bottom img{
   float: left;
-  padding: 0 30px;
+  padding: 15px;
   width: 400px;
   height: auto;
+  border: 5px solid #ecbdb3;
+  margin: 15px 30px 30px 15px;
 }
 
 .home_text{
+  margin-top: 30px;
   line-height: 25px;
 }
 
@@ -165,7 +207,8 @@ Homepage Styling
   padding: 10px;
   background: #c79783;
   color: #f7e5db;
-  border: 2px solid #534836;
+  border: 4px solid #534836;
+  animation: border-color 3s infinite;
   transition: .3s;
 }
 
@@ -183,6 +226,7 @@ Headshot page Styling
   width: 850px;
   margin: auto;
 }
+
 .headshot_row img {
   height: auto;
   width: 250px;
@@ -257,7 +301,9 @@ Form Styling
 .contactimage img {
   float: left;
   width: 300px;
-  padding: 0 40px 0 0;
+  padding: 15px;
+  border: 5px solid #ecbdb3;
+  margin: 15px 30px 30px 15px;
 }
 
 
@@ -277,6 +323,7 @@ Form Styling
   color: #534836;
   font-size: 40px;
   line-height: 50px;
+  margin-top: 35px;
 }
 
 .contact_container p::selection,
@@ -396,12 +443,13 @@ footer h3::selection {
 animation
 
 *=========================*/
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 @keyframes fade {
   from {opacity: .3}
   to {opacity: 1}
+}
+
+@keyframes border-color {
+  50% {border-color: #ecbdb3;}
+  100% {border-color: #534836;}
 }
