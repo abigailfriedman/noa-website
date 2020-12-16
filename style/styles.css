@@ -38,6 +38,7 @@ main {
   background: #f7e5db;
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 /*============================
@@ -117,7 +118,6 @@ Homepage Styling
   padding-top: 50px;
   width: 1000px;
   margin: auto;
-  overflow: scroll;
 }
 
 .home_bottom img{
@@ -128,7 +128,6 @@ Homepage Styling
 }
 
 .home_text{
-  width: 1000px;
   line-height: 25px;
 }
 
