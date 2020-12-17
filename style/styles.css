@@ -429,6 +429,32 @@ footer a:visited {
 footer h3::selection {
   color: #f7e5db;
 }
+/*============================
+
+Form styling
+
+*=========================*/
+
+main .form .container {
+  color:#534836;
+  text-align: center;
+}
+
+main .form h1{
+  font-family: "Didot_Regular";
+  padding: 100px 0 40px 0;
+}
+
+main .form p{
+  font-size: 30px;
+}
+
+main .form {
+  background: #f7e5db;
+  width: 100%;
+  min-height: 550px;
+  position: relative;
+}
 
 /*============================
 
