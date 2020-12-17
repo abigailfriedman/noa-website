@@ -127,6 +127,9 @@ figcaption {
   font-style: italic;
 }
 
+.slider img{
+  width: 100%;
+}
 /*============================
 
 Homepage Styling
@@ -454,6 +457,58 @@ main .form {
   width: 100%;
   min-height: 550px;
   position: relative;
+}
+
+/*============================
+
+Req page styling
+
+*=========================*/
+.reqpage_left img {
+  clear: left;
+  padding: 15px;
+  width: 400px;
+  height: auto;
+  border: 5px solid #ecbdb3;
+  margin: 15px 30px 30px 15px;
+}
+.reqpage_left h1,
+.reqpage_left p{
+  clear: both;
+  padding: 15px;
+  width: 400px;
+  height: auto;
+  border: 5px solid #ecbdb3;
+  margin: 15px 30px 30px 15px;
+}
+
+.detail {
+  margin: 60px 20px;
+  width: 400px;
+  font-size: 28px;
+  color: #534836;
+  cursor: pointer;
+}
+
+.detail p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.fig img{
+  float: right;
+  right: 30px;
+  width: 300px;
+  margin: 30px;
+}
+
+.fig p {
+  position: absolute;
+  font-size: 16px;
+  bottom: 10px;
+  right: 40px;
+  color: green;
+  font-style: italic;
 }
 
 /*============================
