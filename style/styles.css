@@ -93,11 +93,6 @@ Opening a page Styling
   animation-duration: 2s;
 }
 
-.color {
-  animation-name: color;
-  animation-duration: 2s;
-}
-
 /*============================
 
 Slider Styling
@@ -308,7 +303,6 @@ Form Styling
   border: 5px solid #ecbdb3;
   margin: 15px 30px 30px 15px;
 }
-
 
 .contact_Container {
   padding: 10px;
