@@ -10,7 +10,7 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
+
     <!--icons-->
     <script src="https://kit.fontawesome.com/3d5ccbc9dd.js" crossorigin="anonymous"></script>
 
@@ -35,7 +35,7 @@
     </header>
 
     <main>
-      <div class="container">
+      <div class="form">
         <h1>Missing fields</h1>
         <p>Sorry, you have not completed all of the required fields.</p>
         <p>Please hit <a href="#" onClick="history.go(-1)">back</a> and complete the following required fields.</p>

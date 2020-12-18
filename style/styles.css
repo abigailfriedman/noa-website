@@ -438,21 +438,23 @@ Form styling
 
 *=========================*/
 
-main .form .container {
+.form .container {
   color:#534836;
   text-align: center;
 }
 
-main .form h1{
+.form h1{
   font-family: "Didot_Regular";
   padding: 100px 0 40px 0;
+  text-align: center;
 }
 
-main .form p{
+.form p{
   font-size: 30px;
+  text-align: center;
 }
 
-main .form {
+.form {
   background: #f7e5db;
   width: 100%;
   min-height: 550px;
