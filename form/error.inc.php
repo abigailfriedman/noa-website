@@ -31,7 +31,6 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <img src="Images/contact_header.jpg" alt="Noa Michele logo">
     </header>
 
     <main>
