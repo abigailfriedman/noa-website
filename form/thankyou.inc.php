@@ -33,8 +33,8 @@
       <img src="Images/contact_header.jpg" alt="Noa Michele logo">
     </header>
 
-    <main class="form">
-      <div class="container">
+    <main>
+      <div class="form">
         <h1>Thank you!</h1>
         <p>I will get back to you soon.</p>
       </div>

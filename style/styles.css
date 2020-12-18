@@ -127,7 +127,7 @@ figcaption {
   font-style: italic;
 }
 
-.slider img{
+.slider img {
   width: 100%;
 }
 /*============================
@@ -161,6 +161,13 @@ Homepage Styling
   height: auto;
   border: 5px solid #ecbdb3;
   margin: 15px 30px 30px 15px;
+}
+
+.home_text p::selection,
+.home_text h1::selection,
+.home_text h2::selection,
+.home_text li::selection {
+  color: #c79783;
 }
 
 .home_text {
@@ -281,6 +288,7 @@ Grad page Styling
 .last {
   padding-bottom: 20px;
 }
+
 /*============================
 
 Form Styling
@@ -322,7 +330,8 @@ Form Styling
 }
 
 .contact_container p::selection,
-.contact_container h1::selection {
+.contact_container h1::selection,
+label::selection {
   color: #c79783;
 }
 
@@ -443,13 +452,13 @@ Form styling
   text-align: center;
 }
 
-.form h1{
+.form h1 {
   font-family: "Didot_Regular";
   padding: 100px 0 40px 0;
   text-align: center;
 }
 
-.form p{
+.form p {
   font-size: 30px;
   text-align: center;
 }
@@ -475,7 +484,7 @@ Req page styling
   margin: 15px 30px 30px 15px;
 }
 .reqpage_left h1,
-.reqpage_left p{
+.reqpage_left p {
   clear: both;
   padding: 15px;
   width: 400px;
@@ -492,12 +501,12 @@ Req page styling
   cursor: pointer;
 }
 
-.detail p{
+.detail p {
   font-size: 20px;
   font-style: italic;
 }
 
-.fig img{
+.fig img {
   float: right;
   right: 30px;
   width: 300px;
